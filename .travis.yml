@@ -8,3 +8,13 @@ before-install:
 script:
   - 
   - docker run jeevanbs/docker-react npm run test -- --coverage
+
+#deploy:
+ # provider: elasticbeanstalk
+  #region: ""
+  #app: "docker-react"
+  #env: "docker-react-env"
+  #bucket_name: ""
+  #bucket_path: "docker-react"
+  #on:
+   # branch: master
